@@ -5,14 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab2"
         mc:Ignorable="d"
-        Title="Text Editor" Height="450" Width="650" MinHeight="250" MinWidth="350">
+        Title="Text Editor" Height="450" Width="650" MinHeight="250" MinWidth="350"
+        BorderThickness="7 0 7 8" BorderBrush="Gainsboro" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="LinearPanelBrush">
+            <GradientStop Color="Yellow" Offset="0"></GradientStop>
+            <GradientStop Color="DodgerBlue" Offset="0.5"></GradientStop>
+            <GradientStop Color="Yellow" Offset="0.8"></GradientStop>
+        </LinearGradientBrush>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="BorderBrush" Value="White"></Setter>
+
+        </Style>
+
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10"> </Border>
+        <Border Grid.Row="0" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10"
+                Background="{StaticResource LinearPanelBrush}">
+        </Border>
         <StackPanel Grid.Row="0" Orientation="Horizontal" Height="75" Width="300" HorizontalAlignment="Left">
             <Button ><Image Source="D:/learning/labs/6 семестр/ДПГІ/tasks/labs/Lab2/Lab2/images/open.ico" ToolTip="Open"></Image></Button>
             <Button ><Image Source="D:/learning/labs/6 семестр/ДПГІ/tasks/labs/Lab2/Lab2/images/erase.ico" ToolTip="Erase"></Image></Button>
@@ -20,7 +37,8 @@
             <Button ><Image Source="D:/learning/labs/6 семестр/ДПГІ/tasks/labs/Lab2/Lab2/images/paste.ico" ToolTip="Paste"></Image></Button>
         </StackPanel>
 
-        <Border Grid.Row="1" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10">
+        <Border Grid.Row="1" BorderBrush="#FFCBBEBE" BorderThickness="2" CornerRadius="10"
+                Background="{StaticResource LinearPanelBrush}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition  ></RowDefinition>
@@ -28,7 +46,7 @@
                 </Grid.RowDefinitions>
                 <TextBox Grid.Row="0" Margin="10"></TextBox>
                 <DockPanel Grid.Row="1">
-                    <Button DockPanel.Dock="Bottom" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="15">OK</Button>
+                    <Button DockPanel.Dock="Bottom" Background="Azure" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="15">OK</Button>
                 </DockPanel>
             </Grid>
         </Border>
