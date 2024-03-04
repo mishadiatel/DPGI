@@ -13,8 +13,7 @@ namespace Lab3
         {
             InitializeComponent();
         }
-
-        // Шифрування тексту
+        
         private void EncryptButton_Click(object sender, RoutedEventArgs e)
         {
             if (ShiftTextBox.Text.Trim().Length == 0 || !int.TryParse(ShiftTextBox.Text, out _))
@@ -27,8 +26,7 @@ namespace Lab3
             string ciphertext = Encrypt(plaintext, shift);
             OutputTextBox.Text = ciphertext;
         }
-
-        // Розшифрування тексту
+        
         private void DecryptButton_Click(object sender, RoutedEventArgs e)
         {
             if (ShiftTextBox.Text.Trim().Length == 0 || !int.TryParse(ShiftTextBox.Text, out _))
@@ -42,8 +40,6 @@ namespace Lab3
             OutputTextBox.Text = plaintext;
         }
 
-        // Метод шифрування тексту шифром Цезаря
-        
         public string Encrypt(string input, int key) {  
             string output = string.Empty;  
   
