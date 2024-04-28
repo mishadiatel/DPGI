@@ -10,7 +10,10 @@ namespace Lab4
 {
     public class AddoAssistant
     {
-        string connectionString = "Server=localhost;Uid=root;Pwd=password;database=dpgiproductsdb";
+        //string connectionString = "Server=localhost;Uid=root;Pwd=password;database=dpgiproductsdb";
+        String connectionString = System.Configuration.
+            ConfigurationManager.ConnectionStrings["DB_URL"].ConnectionString;
+
         
         DataTable dt = null; 
         public DataTable TableLoad()
