@@ -1,0 +1,16 @@
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\bin\Debug\Lab5.exe.config
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\bin\Debug\Lab5.exe
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\bin\Debug\Lab5.pdb
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.csproj.SuggestedBindingRedirects.cache
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\MainWindow.g.cs
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\App.g.cs
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5_MarkupCompile.cache
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5_MarkupCompile.lref
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\MainWindow.baml
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.g.resources
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.exe
+D:\learning\labs\6 семестр\ДПГІ\tasks\labs\Lab5\Lab5\obj\Debug\Lab5.pdb
