@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="450" Width="800">
+    <TabControl>
+        <TabItem Header="Products">
+            <DataGrid x:Name="dataGrid1" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                    <DataGridTextColumn Header="Article" Binding="{Binding Article}" />
+                    <DataGridTextColumn Header="Unit code" Binding="{Binding Unitcode}" />
+                    <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" />
+                    <DataGridTextColumn Header="Price" Binding="{Binding Price}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </TabItem>
+        <TabItem Header="Units">
+            <DataGrid x:Name="dataGrid2" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                    <DataGridTextColumn Header="Unit" Binding="{Binding Unit1}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </TabItem>
+
+    </TabControl>
+
 </Window>
