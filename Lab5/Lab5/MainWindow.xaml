@@ -26,6 +26,54 @@
                 </DataGrid.Columns>
             </DataGrid>
         </TabItem>
+        <TabItem Header="Join">
+            <DataGrid x:Name="gridJoin" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                    <DataGridTextColumn Header="Article" Binding="{Binding Article}" />
+                    <DataGridTextColumn Header="Unit Code" Binding="{Binding Unitcode}" />
+                    <DataGridTextColumn Header="Unit" Binding="{Binding Unit1}" />
+                    <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" />
+                    <DataGridTextColumn Header="Price" Binding="{Binding Price}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </TabItem>
+        <TabItem Header="Select By Id">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <TextBlock Text="Enter Id:" Margin="0,0,5,0" />
+                    <TextBox x:Name="idTextBox" Width="200" />
+                    <Button Content="Select" Click="SelectByIdButton_Click" />
+                </StackPanel>
+                <DataGrid x:Name="idGrid" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                        <DataGridTextColumn Header="Article" Binding="{Binding Article}" />
+                        <DataGridTextColumn Header="Unit code" Binding="{Binding Unitcode}" />
+                        <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" />
+                        <DataGridTextColumn Header="Price" Binding="{Binding Price}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Select By Name">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <TextBlock Text="Enter Name:" Margin="0,0,5,0" />
+                    <TextBox x:Name="nameTextBox" Width="200" />
+                    <Button Content="Select" Click="SelectByNameButton_Click" />
+                </StackPanel>
+                <DataGrid x:Name="nameGrid" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                        <DataGridTextColumn Header="Article" Binding="{Binding Article}" />
+                        <DataGridTextColumn Header="Unit code" Binding="{Binding Unitcode}" />
+                        <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" />
+                        <DataGridTextColumn Header="Price" Binding="{Binding Price}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </TabItem>
 
     </TabControl>
 
